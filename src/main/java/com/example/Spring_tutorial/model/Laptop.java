@@ -1,4 +1,4 @@
-package com.example.Spring_tutorial;
+package com.example.Spring_tutorial.model;
 
 import org.springframework.stereotype.Component;
 

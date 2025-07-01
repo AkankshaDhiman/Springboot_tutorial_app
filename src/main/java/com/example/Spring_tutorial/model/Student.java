@@ -1,4 +1,4 @@
-package com.example.Spring_tutorial;
+package com.example.Spring_tutorial.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -50,7 +50,7 @@ public class Student {
                 '}';
     }
 
-    void code(){
+    public void code(){
         System.out.println("Student is writing code");
         computer.compile();
     }
